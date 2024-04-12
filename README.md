@@ -20,7 +20,8 @@ JavaScript will handle the functionality of the progress bar, listening for butt
 ![image](https://github.com/mekalasanthosh2001/Progress-Bar-JavaScript-/assets/104013993/52d58475-cdb1-4d78-8292-5d4ec9c3e722)
 
 
-**After**
+**After:**
+
 ![image](https://github.com/mekalasanthosh2001/Progress-Bar-JavaScript-/assets/104013993/3f1a595e-f2a8-4ebb-8e69-ecfd5a39c872)
 
 
