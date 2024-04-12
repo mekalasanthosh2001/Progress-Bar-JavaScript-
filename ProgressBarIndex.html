@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProgressBar Project</title>
+    <link rel="stylesheet" href="./ProgressBar.css" />
+  </head>
+  <body>
+    <div class="background-color-change" id="bgColors">
+      <div class="progresBox">
+        <div class="frsitbox">
+          <!-- circle -->
+          <div class="circle-box">
+            <div class="cricle-color">
+              <span id="cicle-text">0%</span>
+            </div>
+          </div>
+
+          <div class="circle-caption">
+            <span>PROGRESS BAR</span>
+          </div>
+
+          <!-- line-bar -->
+          <div id="progress-bar-line">
+            <div id="bar-text">0%</div>
+          </div>
+        </div>
+
+        <div class="wishses-text" id="wishses-text-box">
+          <img
+            src="./imgesprgbar/istockphoto-1279775421-640x640-removebg-preview.png"
+            alt=""
+            width="200"
+          />
+
+          <p class="congratulationstext">Mr. Mekala Santhosh Reddy</p>
+        </div>
+
+        <div class="sub-button">
+          <button onclick="makeOrder()" id="btn">Start</button>
+        </div>
+        <button onclick="done()" id="btn2" class="btncl">Done</button>
+      </div>
+    </div>
+
+    <script src="./ProgressBar.js"></script>
+  </body>
+</html>

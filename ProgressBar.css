@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.background-color-change {
+  background-color: rgb(61, 109, 93);
+  /* background-image: url('./gifimages/congratulations-with-a-fireworks-dark-blue-background.png'); */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progresBox {
+  background-color: rgb(252, 245, 236);
+  border: 3px solid black;
+  padding: 30px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  width: 30%;
+  /* height: 650px; */
+}
+.frsitbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+
+/* line bar */
+#progress-bar-line {
+  width: 90%;
+  background-color: rgb(101, 101, 2);
+  border-radius: 20px;
+  height: 18px;
+}
+
+#bar-text {
+  width: 1%;
+  height: 18px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  padding-left: 5px;
+}
+
+/* ciercle */
+.circle-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  position: relative;
+  background: conic-gradient(orange 3.6deg, white 0deg);
+}
+.cricle-color {
+  background-color: rgb(33, 44, 33);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cicle-text {
+  color: orange;
+}
+
+.second-box {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.sub-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.circle-caption {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.wishses-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.wishses-text {
+  display: none;
+}
+
+.congratulationstext {
+  color: blue;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 800;
+}
+/* -- */
+
+.sub-button button {
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(19, 92, 19);
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+#btn2 {
+  display: none;
+  background-color: orange;
+  position: relative;
+  padding: 8px;
+  border-radius: 20px;
+  width: 150px;
+}
